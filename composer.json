@@ -1,0 +1,7 @@
+{
+    "require": {
+        "nicolaslopezj/searchable": "^1.12",
+        "twig/twig": "3.0",
+        "twbs/bootstrap": "5.0.2"
+    }
+}
