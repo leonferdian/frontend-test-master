@@ -114,6 +114,10 @@ li.list-feature {
     padding: 50px;
 }
 
+.basic-line {
+  margin-bottom: 50px;
+}
+
 /* --- Pricing Plans --- */
 
 .pricing-plans {
@@ -158,6 +162,7 @@ li.list-feature {
   }
   
   .plan-title {
+    border-bottom: 1px solid #DDD;
     font-family: 'Montserrat-bold';
     background-color: white;
     font-size: 24px;
@@ -167,9 +172,12 @@ li.list-feature {
     /* text-transform: uppercase; */
   }
 
+  .diskon-price {
+    padding: 5px;
+  }
+
   .line {
-      height: 0.1em;
-      background-color: #59595c;
+    border-bottom: 1px solid #DDD;
   }
   
   .plan-cost {
@@ -273,19 +281,26 @@ li.list-feature {
     max-width: 12em;
     color: #59595c;
   }
+
+  .btn-plan:hover {
+    color: #59595c;
+  }
   
   .cta {
     background-color: #008fee;
     color: white;
     border-color: #008fee;
   }
+
+  .stared {
+    color: #008fee;
+  }
   
   .featured-plan {
     background-color: #ffffff;
-    border-top: 5px solid #8cd0f5;
-    border-right: 0 solid transparent;
-    border-bottom: 5px solid #8cd0f5;
-    border-left: 0 solid transparent;
+    border: 1.5px solid #008fee;
+    /* border-right: 0 solid transparent;
+    border-left: 0 solid transparent; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     /* //order: -1; */
@@ -298,6 +313,8 @@ li.list-feature {
   }
   
   .featured-ribbon {
+    padding: 7px;
+    font-size: 0.7em;
     width: 200px;
     background: #00b359;
     position: absolute;
@@ -478,7 +495,7 @@ li.list-feature {
     }
   
     .featured-ribbon {
-      font-size: 0.45em;
+      font-size: 0.7em;
       left: -68px;
       line-height: 25px;
     }
