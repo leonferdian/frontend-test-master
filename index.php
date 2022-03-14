@@ -11,6 +11,10 @@ $twig = new Environment($loader);
 echo $twig->render('index.html.twig', 
     [
         'title' => $template['title'],
-        'mainmenu' => $template['mainmenu']
+        'mainmenu' => $template['mainmenu'],
+        'price_bayi'=> $template['price_bayi'],
+        'price_pelajar'=> $template['price_pelajar'],
+        'price_personal'=> $template['price_personal'],
+        'price_bisnis'=> $template['price_bisnis']
     ]
 );

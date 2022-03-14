@@ -3,6 +3,10 @@ body {
     color: #59595c;
 }
 
+h1,h2,h3,h4 {
+  color: #59595c;
+}
+
 .desc-head {
     font-family: 'Montserrat-Bold';
 }
@@ -11,12 +15,20 @@ body {
     font-family: 'Montserrat-Light';
 }
 
+.text-left {
+  text-align: left;
+}
+
+.laravel-list {
+  margin-left: -11%;
+}
+
 li.list-feature {
     font-family: 'Montserrat-Light';
     font-size: 16px;
 }
 
-.fa-li {
+.fa-check-circle {
     color: #18c05e;
 }
 
@@ -32,7 +44,7 @@ li.list-feature {
 }
 
 #footer {
-    background-color: #59595c;
+    background-color: #303030;
     color: #bdbdbd;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -115,13 +127,18 @@ li.list-feature {
 }
 
 .basic-line {
+  margin-top: 7rem!important;
   margin-bottom: 50px;
+}
+
+.feature-installer {
+  margin-right: -12px;
 }
 
 /* --- Pricing Plans --- */
 
 .pricing-plans {
-    padding: 30px;
+    /* padding: 30px; */
     width: 100%;
   }
   
@@ -136,9 +153,15 @@ li.list-feature {
     border: 2px solid #DDD;
     border-bottom: 2px solid #DDD;
     display: block;
-    padding: 2em 0;
+    /* padding: 2em 0; */
+    padding-bottom: 2em;
     text-align: center;
     width: 100%;
+  }
+
+  div.plan-cost.first-major {
+    background-color: #0051ff;
+    color: white;
   }
   
   /* .pricing-plan:first-child, .pricing-plan:last-child {
@@ -170,6 +193,10 @@ li.list-feature {
     margin: 0;
     padding: 10px;
     /* text-transform: uppercase; */
+  }
+
+  .featured-plan .plan-title{
+    border-bottom: none;
   }
 
   .diskon-price {
@@ -253,11 +280,12 @@ li.list-feature {
   }
 
   .plan-features li:first-child {
+    padding-top: 10px;
     border-bottom: 1px solid #DDD;
   }
-  
-  .plan-features h3 {
-    
+
+  li.featured {
+    background-color: #0051ff;
   }
   
   .plan-features i {
@@ -292,12 +320,37 @@ li.list-feature {
     border-color: #008fee;
   }
 
+  .col-md-12.cs {
+    padding: 35px;
+    background-color: #008fee;
+    margin-top:20px;
+  }
+
+  .col-md-12.cs h2, .col-md-12.cs a{
+    color: white;
+  }
+
   .stared {
     color: #008fee;
   }
+
+  span.newsletter {
+    padding: 15px;
+    background-color: white;
+    padding-left: 100px;
+    border-radius: 30px;
+  }
   
+  div.col-sm-4.socmed {
+    border-radius: 50%;
+    width: 47px;
+    padding: 15px;
+    border: white 1px solid;
+    margin-left: 20px;
+  }
+
   .featured-plan {
-    background-color: #ffffff;
+    background-color: white;
     border: 1.5px solid #008fee;
     /* border-right: 0 solid transparent;
     border-left: 0 solid transparent; */
@@ -308,8 +361,9 @@ li.list-feature {
     transition: transform 400ms ease;
   }
   
-  .featured-plan .plan-title {
-      color: #59595c;
+  .featured-plan .plan-title, .featured-plan .actual-price, .featured-plan div.plan-cost.major {
+      background-color: #008fee;
+      color: white;
   }
   
   .featured-ribbon {
