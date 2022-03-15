@@ -301,7 +301,7 @@ li.list-feature {
   }
   
   .btn-plan {
-    padding: 7px;
+    padding: 10px;
     border: #59595c 2px solid;
     border-radius: 50px;
     text-decoration-line: none;
@@ -334,16 +334,30 @@ li.list-feature {
     color: #008fee;
   }
 
-  span.newsletter {
+  /* label.newsletter {
     padding: 15px;
     background-color: white;
-    padding-left: 100px;
+    padding-left: 150px;
     border-radius: 30px;
+  } */
+
+  input#email-newsletter.form-control {
+    width: 300px;
+    height: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
   }
+  
+
+  /* .btn-newsletter {
+      margin-left: -50px;
+      height: 20px;
+      width: 50px;
+  } */
   
   div.col-sm-4.socmed {
     border-radius: 50%;
-    width: 47px;
+    width: 50px;
     padding: 15px;
     border: white 1px solid;
     margin-left: 20px;
@@ -364,6 +378,10 @@ li.list-feature {
   .featured-plan .plan-title, .featured-plan .actual-price, .featured-plan div.plan-cost.major {
       background-color: #008fee;
       color: white;
+  }
+
+  .btn-plan .live-chat {
+    padding: 20px;
   }
   
   .featured-ribbon {
@@ -545,7 +563,7 @@ li.list-feature {
     }
   
     .btn-plan {
-      font-size: 0.875em;
+      font-size: 1em;
     }
   
     .featured-ribbon {
